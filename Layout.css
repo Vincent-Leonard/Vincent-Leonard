@@ -1,0 +1,785 @@
+html{
+    overflow-x: hidden;
+}
+
+#container{
+    padding: 0px;
+    margin: 0px;
+}
+
+#Header{
+    background-color: rgb(0, 0, 0);
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+}
+#Header ul{
+    list-style-type: none;
+    overflow: hidden;
+    margin-top: -10px;
+    padding: 0px;
+}
+#Header #Text li{
+    float: right;
+    padding-bottom: -10%;
+}
+#Header #Text li a{
+    margin-right: 20px;
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    height: 30px;
+    margin-bottom: 20px;
+}
+#Header #Text li h2{
+    font-weight: 500;
+}
+#Header img{ 
+    float: left;
+    background-color:  rgb(0, 0, 0);
+    width: 5%;
+    margin-top: 1%;
+    margin-left: 20px;
+}
+#Header h4{
+    margin-top: -10px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    float: left;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+#Header #h4Text{
+    margin-top: -10px;
+    padding-top: 42px;
+    margin-left: -212px;
+    padding-bottom: 0px;
+    float: left;
+    color: rgb(255, 255, 255);    
+}
+
+#Header #Text li a:hover {
+    border-bottom: 1px solid white;
+    margin-bottom: 1px;
+}
+
+
+
+#Main{
+    height: 20%;
+    margin-top: -20px;
+    margin-left: -8px;
+    margin-right: -12px;
+    padding-top: 16px;
+    background-color: white;
+    border-top: 89.5vh solid black;
+    border-right: 100vw solid transparent;
+}
+#Text1{
+    color: white;
+    font-size: 12.5vw;
+    margin-top: -82vh;
+    margin-left: 6vw;
+}
+#Text2{
+    color: black;
+    font-size: 12vw;
+    margin-left: 47vw;
+    margin-top: -3vh;
+}
+
+
+
+/*Footer*/
+
+
+
+#footer{
+    background-size: 100% 100%;
+    background-color: black;
+    height: 40vh;
+    margin-top: -16px;
+    margin-left: -8px;
+    margin-right: -12px;
+    clear: both;
+}
+#footer #Text{
+    padding-left: 17vw;
+    padding-top: 5%;
+}
+#footer li{
+    display: inline;
+}
+#footer h2 {
+    float: left;
+    font-size: 1.5em;
+    margin-right: 10%;
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+#footer h2:hover{
+    border-bottom: 1px solid white;
+    margin-bottom: 1px;
+}
+#footer p{
+    color: rgb(173, 173, 173);
+    clear: both;
+    text-align: center;
+    padding-top: 3%;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 5%;
+    background-color: black;
+}
+
+
+
+/*Home*/
+
+
+
+
+
+#Home1{
+    background-color: white;
+    background-size: 100% 100%;
+    height: 450px;
+    margin-top: -16px;
+    margin-left: -8px;
+    margin-right: -12px;
+    padding-top: 275px;
+}
+
+#Home1 #TextHome1{
+    margin-left: 600px;
+    margin-top: -200px;
+    float: right;
+    padding-right: 200px;
+    font-size: 19px;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+}
+#TextHome1 p{
+    font-family: 'Montserrat', sans-serif;
+}
+#Photo_Home{
+    width: 40%;
+    transform: rotate(270deg);
+    float: left;
+    margin-top: -100px;
+    margin-left: 100px;
+    padding-left: 0px;
+}
+
+
+
+
+#Home2{
+    background-color: rgb(233, 233, 233);
+    background-size: 100% 100%;
+    height: 90vh;
+    margin-top: -16px;
+    margin-left: -8px;
+    margin-right: -12px;
+    padding-top: 300px;
+}
+#Home2 h1{
+    color: black;
+    text-align: center;
+    margin-top: -225px;
+    font-size: 3em;
+    font: bold;
+}
+#Home2 p{
+    color: black;
+    text-align: center;
+    font-size: 1.4em;
+    margin-right: 20%;
+    margin-left: 20%;
+    font-family: 'Montserrat', sans-serif;
+}
+#Home2 #ObjectHome2{
+    text-align: center;
+    padding-top: 10px;
+}
+#Home2 #button1{
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-right: 3%;
+    background-color: black;
+    float: left;
+    width: 25%;
+}
+#Home2 #button2{
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-right: 3%;
+    background-color: black;
+    float: left;
+    width: 25%;
+}
+#Home2 #button3{
+    margin-left: 5%;
+    margin-top: 1%;
+    background-color: black;
+    float: left;
+    width: 25%;
+}
+
+#Home2 #ObjectHome2 img{
+    width: 100%;
+    display: block;
+    transition: 0.5s ease;
+}
+
+#Home2 .container {
+    position: relative;
+  }
+  
+  #Home2 .container:hover img {
+    display: block;
+    opacity: 0.5;
+   
+  }
+  
+.title {
+    position: absolute;
+    margin-top: -90%;
+    opacity: 0;
+    color: white;
+    transition: 0.5s ease;
+  }
+
+#button1 .title{
+    padding-left: 34%;
+    margin-top: -80%;
+}
+#button2 .title{
+    padding-left: 20%;
+    margin-top: -80%;
+}
+#button3 .title{
+
+}
+
+#Home2 .container:hover .title {
+    opacity: 1;
+  }
+  
+#Home2 .button {
+    position: absolute;
+    width: 60%;
+    text-align: center;
+    opacity: 0;
+    transition:0.5s ease;
+    margin-top: -60%;
+    padding-left: 18%;
+  }
+  
+#Home2 .button a {
+    width: 80%;
+    padding: 5%;
+    text-align: center;
+    color: white;
+    border: solid 2px white;
+    text-decoration: none;
+    transition: 0.3s ease;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+#Home2 .container:hover .button {
+    opacity: 1;
+  }
+
+#Home2 .button:hover a{
+    color: black;
+    background-color: white;
+}
+
+
+
+
+/*Interest*/
+
+
+
+
+
+#Interest1{
+    height: 50%;
+    margin-top: -16px;
+    margin-left: -8px;
+    margin-right: -12px;
+    padding-top: 15%;
+    background-color: white;
+}
+#Interest1 h1{
+    font-size: 4em;
+    color: black;
+    margin-top: -100px;
+    padding-left: 50px;
+    text-align: center;
+}
+#Interest1 img{
+    border: 2px solid grey;
+}
+#Img1Int{
+    margin-top: 40px;
+    height: 360px;
+    width: 240px;
+    margin-left: 140px;
+}
+#Img2Int{
+    height: 360px;
+    width: 240px;
+    margin-left: 150px;
+}
+#Img3Int{
+    height: 360px;
+    width: 240px;
+    margin-left: 150px;
+}
+#Interest1 p{
+    color: black;
+    text-align: center;
+    font-size: 1.5em;
+    margin-right: 20%;
+    margin-left: 23%;
+    margin-top: -20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+#Interest2{
+    background-color: rgb(228, 228, 228);
+    margin-left: -8px;
+    margin-right: -12px;
+    margin-top: 10%;
+    height: 120vh;
+}
+#Interest2 h1{
+    text-align: center;
+    font-size: 4em;
+    padding-top: 5%;
+}
+#Interest2 img{
+    width: 40%;
+    float: left;
+    padding-left: 8%;
+    padding-top: 3%;
+}
+#Interest2 p{
+    float: left;
+    display: block;
+    width: 40%;
+    text-align: justify;
+    padding-left: 5%;
+    padding-top: 3%;
+    font-size: 1.2em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+/*Project*/
+
+
+
+
+#Project1{
+    margin-left: -8px;
+    margin-right: -12px;
+}
+#Project1 h1{
+    text-align: center;
+    padding-top: 5%;
+    font-size: 4em;
+    padding-bottom: 2%;
+}
+#Project1 img{
+    border-radius: 100%;
+    width: 100%;
+    transition: 0.5s ease;
+    margin-bottom: -1.5%;
+}
+#Project1 #column1{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+#Project1 #column2{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+#Project1 h2{
+    font-size: 2em;
+}
+#Project1 p{
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+
+#ChannelLogo{
+    border-radius: 100%;
+    width: 50%;
+    height: 50%;
+    background-color: black;
+    margin: auto;
+}
+#Project1 .container {
+    position: relative;
+  }
+  
+  #Project1 .container:hover img {
+    opacity: 0.5;
+    
+  }
+.Project1Button {
+    position: absolute;
+    width: 60%;
+    text-align: center;
+    opacity: 0;
+    transition:0.5s ease;
+    margin-top: -50%;
+    padding-left: 20%;
+  }
+  
+.Project1Button a {
+    width: 80%;
+    padding: 5%;
+    text-align: center;
+    color: white;
+    border: solid 2px white;
+    text-decoration: none;
+    transition: 0.3s ease;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+#Project1 .container:hover .Project1Button {
+    opacity: 1;
+  }
+
+.Project1Button:hover a{
+    color: black;
+    background-color: white;
+}
+
+
+
+#Project2{
+    clear: both;
+    margin-left: -8px;
+    margin-right: -12px;
+}
+#Project2 h2{
+    text-align: center;
+    padding-top: 10%;
+    font-size: 5em;
+}
+#Project2 iframe{
+    width: 49.5vw;
+    height: 58.5vh;
+    margin-left: 25%;
+    border: 1px solid grey;
+    margin-bottom: 10%;
+}
+#Project2 .Carousel-Left{
+    margin-left: 25.1%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border: rgba(0, 0, 0, 0);
+    border-radius: 5%;
+    width: 3%;
+    height: 10%;
+    font: 800;
+    font-size: 1.25em;
+    margin-top: -27%;
+    position: absolute;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#Project2 .Carousel-Right{
+    margin-left: 72.3%;
+    margin-top: -27%;
+    border-radius: 3%;color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border: rgba(0, 0, 0, 0);
+    border-radius: 5%;
+    width: 3%;
+    height: 10%;
+    font: 800;
+    font-size: 1.25em;
+    position: absolute;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#Project2 .Carousel-Left:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#Project2 .Carousel-Right:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+#Project3{
+    margin-left: -8px;
+    margin-right: -12px;
+    text-align: center;
+}
+#Project3 h1{
+    font-size: 5em;
+}
+#Project3 p{
+    font-size: 1.4em;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 5%;
+}
+#Project3 img{
+    width: 100%;
+    margin-bottom: -1%;
+    opacity: 1;
+}
+#Project3 #Overlay1, #Project3 #Overlay2{
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    background-color: black;
+    display: inline-block;
+    border: 1px solid grey;
+    text-align: center;
+}
+.OverlayText1{
+    color: white;
+    font-size: 1.4em;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    margin-top: -23%;
+    opacity: 0;
+    font-weight: 600;
+    margin-left: 4.5%;
+    transition: 0.5s ease;
+}
+.OverlayText2{
+    color: white;
+    font-size: 1.4em;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    margin-top: -20%;
+    opacity: 0;
+    font-weight: 600;
+    margin-left: 2.5%;
+    transition: 0.5s ease;
+}
+#ButtonP{
+    background-color: rgba(red, green, blue, 0);
+    position: absolute;
+    margin-top: -15%;
+    border: 1px solid white;
+    width: 10%;
+    margin-left: 10%;
+    opacity: 0;
+    transition: 0.5s ease;
+}
+#ButtonP h2{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#Project3 #Overlay1:hover img{
+    opacity: 0.5;
+}
+#Project3 #Overlay1:hover #ButtonP{
+    opacity: 1;
+}
+#Project3 #Overlay2:hover img{
+    opacity: 0.5;
+}
+#Project3 #Overlay1:hover .OverlayText1{
+    opacity: 1;
+}
+#Project3 #Overlay2:hover .OverlayText2{
+    opacity: 1;
+}
+#Project3 h4{
+    float: left;
+    width: 26%;
+    margin-left: 16%;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+
+
+/*Gallery*/
+
+
+
+
+#Gallery1 h1{
+    text-align: center;
+    font-size: 5em;
+    padding-top: 10vh;
+}
+#Album{
+    width: 90%;
+    margin-left: 5vw;
+    columns: 3;
+    column-gap: 2vw;
+}
+#Gallery1 img{
+    width: 27.5vw;
+    padding-bottom: 4vh;
+    display: inline-block;
+}
+
+
+
+
+/*Contact*/
+
+
+
+#Contact1{
+    background-color: rgb(231, 231, 231);
+    width: 49.5%;
+    float: left;
+    margin-bottom: 0.75%;
+}
+#Contact1 h1{
+    margin-left: 2%;
+}
+#Contact1Column1{
+    width: 50%;
+    float: left;
+}
+#Contact1Column1 p{
+    margin-left: 10%;
+    margin-bottom: 2em;
+}
+#Contact1Column2{
+    float: left;
+    margin-bottom: 19%;
+}
+#Contact1Column2 p{
+    margin-bottom: 2em;
+}
+#Contact2 h1{
+    margin-left: 5%;
+}
+#inquiry{
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+#inquiry p{
+    font-family: 'Montserrat';
+}
+#inquiry #formBox1{
+    float: left;
+    width: 35%;
+}
+#inquiry #formBox2{
+    width: 35%;
+    float: left;
+}
+#formBox2 p,  #formBox1 p{
+    color: rgb(148, 148, 148);
+    margin-top: -1%;
+    font-size: 0.8em;
+}
+#inquiry #Input1{
+    width: 80%;
+    font-size: 1em;
+}
+#inquiry #Input2{
+    width: 80%;
+    font-size: 1em;
+}
+#inquiry #Email{
+    clear: both;
+    padding-top: 2%;
+}
+#inquiry #Input3{
+    width: 63%;
+    font-size: 1em;
+    margin-top: -20%;
+}
+#inquiry #Phone{
+    padding-top: 2%;
+}
+#inquiry #Input4{
+    width: 63%;
+    font-size: 1em;
+}
+#inquiry #Details{
+    padding-top: 2%;
+}
+#inquiry #Input5{
+    width: 63%;
+    resize: none;
+    height: 60px;
+    font-size: 1.2em;
+}
+#inquiry #Submit{
+    margin-top: 2%;
+}
+#Contact2{
+    width: 49.5%;
+    float: right;
+    background-color: rgb(231, 231, 231);
+}
+
+#Contact3{
+    clear: both;
+    background-color: rgb(231, 231, 231);
+    margin-top: 54%;
+    text-align: center;
+}
+#phone{
+}
+#PhoneLogo{
+    width: 3%;
+    display: inline-block;
+    margin-top: 3%;
+}
+#phone h1{
+    display: inline-block;
+}
+#Contact3 .ImgBorder{
+    width: 10%;
+    display: inline-block;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-left: 2px solid rgba(0, 0, 0, 0);
+    border-right: 2px solid rgba(0, 0, 0, 0);
+}
+#Contact3 .ImgBorder:hover{
+    border-bottom: 0px;
+    border-top: 0px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+#Contact3 .ImgBorder img{
+    width: 70%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    cursor: pointer;
+}

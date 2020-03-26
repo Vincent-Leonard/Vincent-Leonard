@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Personal Website</title>
+        <link type="text/css" rel="stylesheet" href="Layout.css"/>
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div id="Header">
+                <img src="Sisa/Logo Web.png" >
+                <h4>Vincent Leonard Santoso</h4>
+                <h4 id="h4Text">Personal Page</h4>
+                <ul id="Text">
+                    <li>
+                        <a href="Contact.html"><h2>Contact</h2></a>
+                    </li>
+                    <li>
+                        <a href="Gallery.html"><h2>Gallery</h2></a>
+                    </li>
+                    <li>
+                        <a href="Project.html"><h2>Project</h2></a>
+                    </li>
+                    <li>
+                        <a href="Interest.html"><h2>Interest</h2></a>
+                    </li>
+                    <li>
+                        <a href="Index.html"><h2>Home</h2></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="Main">
+                <h1 id="Text1">Projects</h1>
+                <h1 id="Text2">Creation</h1>
+            </div>
+
+            <div id="Project1">
+                <h1>Youtube Channel</h1>
+                <div id="column1">
+                    <div id="ChannelLogo">
+                        <div class="container">
+                            <img src="Sisa/IMG_0489.jpg">
+                            <div class="Project1Button">
+                                <a href="https://www.youtube.com/channel/UCeUTY7g369iuUFchHPSD12w">Visit Channel</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <h2>Main Channel</h2>
+                    <p>Contains edited videos and programming tutorials</p>
+                </div>
+                <div id="column2">
+                    <div id="ChannelLogo">
+                        <div class="container">
+                            <img src="Sisa/logoMusicverse.jpg">
+                            <div class="Project1Button">
+                                <a href="https://www.youtube.com/channel/UCoQQA96gHapwxYYz6YprJxA">Visit Channel</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h2>Just For Fun</h2>
+                    <p>Contains music covers with friends</p>
+                </div>
+            </div>
+            <div id="Project2">
+                <h2>Videos</h2>
+                <div id="Slideshow">
+                    <div class="Carousel">
+                        <iframe class="Slides" src="https://www.youtube.com/embed/z87ZXEBgHUg" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe class="Slides" src="https://www.youtube.com/embed/vkncLHM6SWI" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe class="Slides" src="https://www.youtube.com/embed/HRMWiYTu6NY" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe class="Slides" src="https://www.youtube.com/embed/Su89-K5SjTc" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        
+                        <button class="Carousel-Left" onclick="plusDivs(-1)">&#10094;</button>
+                        <button class="Carousel-Right" onclick="plusDivs(1)">&#10095;</button>
+                    </div>
+    
+                    <script>
+                        var slideIndex = 1;
+                        showDivs(slideIndex);
+    
+                        function plusDivs(n){
+                            showDivs(slideIndex += n);
+                        }
+    
+                        function showDivs(n){
+                            var i;
+                            var x = document.getElementsByClassName("Slides");
+                            if (n > x.length){slideIndex = 1}
+                            if (n < 1){slideIndex = x.length}
+                            for (i = 0; i < x.length; i++){
+                                x[i].style.display = "none";
+                            }
+                            x[slideIndex-1].style.display = "block";
+                        }
+                    </script>
+                </div>
+                
+
+            </div>
+            <div id="Project3">
+                <h1>Programming</h1>
+                <p>I'm a university student majoring in Informatics. Here are some of my finished projects.</p>
+                <div id="Overlay1">
+                    <img src="Sisa/Capture.jpg">
+                    <h3 class="OverlayText1">Website UKM Futsal UC</h3>
+                    <div id="ButtonP">
+                        <a href="https://sites.google.com/view/ucfutsal"><h2>Visit Page</h2></a>
+                    </div>
+                </div>
+                <div id="Overlay2">
+                    <img src="Sisa/Capture1.jpg">
+                    <h3 class="OverlayText2">Project Kecepatan Mengetik</h3>
+                </div>
+                <h4>Simple web page using google site</h4>
+                <h4>Simple java program that tests typing speed</h4>
+            </div>
+
+
+            <div id="footer">
+                <div id="content">
+                    <ul id="Text">
+                        <li>
+                            <a href="Index.html">
+                                <h2>Home</h2>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Interest.html">
+                                <h2>Interest</h2>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Project.html">
+                                <h2>Project</h2>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Gallery.html">
+                                <h2>Gallery</h2>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Contact.html">
+                                <h2>Contact</h2>
+                            </a>
+                        </li>
+                    </ul>
+                    <p>@2020 Vincent Leonard. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
