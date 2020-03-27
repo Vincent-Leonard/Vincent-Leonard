@@ -783,3 +783,22 @@ html{
     margin-bottom: 15%;
     cursor: pointer;
 }
+
+#gmail{
+    transition: 0.5s ease;
+}
+#gmail p{
+    display: none;
+    text-align: center;
+    font-family: 'Montserrat';
+    margin-left: -50%;
+    margin-top: -15%;
+    margin-bottom: 0%;
+}
+#gmail:hover{
+    padding-left: 7%;
+    padding-right: 7%;
+}
+#gmail:hover p{
+    display: block;
+}
