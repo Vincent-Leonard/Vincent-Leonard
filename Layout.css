@@ -386,6 +386,27 @@ html{
     font-family: 'Montserrat', sans-serif;
 }
 
+#Interest3{
+    clear: both;
+    background-color: rgb(228, 228, 228);
+    margin-left: -8px;
+    margin-right: -12px;
+}
+#Interest3 p{
+    float: left;
+    width: 40%;
+    margin-left: 8%;
+    margin-right: 3%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    text-align: justify;
+    line-height: 1.5em;
+}
+#Interest3 img{
+    width: 45%;
+    margin-bottom: 5%;
+}
+
 
 
 
