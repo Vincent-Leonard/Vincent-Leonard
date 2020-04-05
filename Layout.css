@@ -958,6 +958,11 @@ html{
     #footer{
         height: 20vh;
     }
+    #footer li{
+        display: inline-block;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
     
 
     #Home1{
