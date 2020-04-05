@@ -13,6 +13,9 @@ html{
     margin-right: -10px;
     margin-top: -10px;
 }
+#Header #TextPhone{
+    display: none;
+}
 #Header ul{
     list-style-type: none;
     overflow: hidden;
@@ -60,6 +63,10 @@ html{
     float: left;
     color: rgb(255, 255, 255);    
 }
+#Header #Navbar{
+    float: none;
+    display: none;
+}
 
 #Header #Text li a:hover {
     border-bottom: 1px solid white;
@@ -75,7 +82,7 @@ html{
     margin-right: -12px;
     padding-top: 16px;
     background-color: white;
-    border-top: 89.5vh solid black;
+    border-top: 89vh solid black;
     border-right: 100vw solid transparent;
 }
 #Text1{
@@ -151,19 +158,24 @@ html{
 #Home1{
     background-color: white;
     background-size: 100% 100%;
-    height: 450px;
     margin-top: -16px;
     margin-left: -8px;
     margin-right: -12px;
     padding-top: 275px;
+    margin-bottom: 35%;
 }
-
+#Home1 h1{
+    clear: both;
+    margin-top: -15%;
+    float: right;
+    padding-right: 500px;
+}
 #Home1 #TextHome1{
     margin-left: 600px;
-    margin-top: -200px;
+    margin-top: -400px;
     float: right;
     padding-right: 200px;
-    font-size: 19px;
+    font-size: 1.2em;
     color: rgb(0, 0, 0);
     text-align: justify;
 }
@@ -185,11 +197,11 @@ html{
 #Home2{
     background-color: rgb(233, 233, 233);
     background-size: 100% 100%;
-    height: 90vh;
     margin-top: -16px;
     margin-left: -8px;
     margin-right: -12px;
     padding-top: 300px;
+    padding-bottom: 43%;
 }
 #Home2 h1{
     color: black;
@@ -211,12 +223,13 @@ html{
     padding-top: 10px;
 }
 #Home2 #button1{
-    margin-left: 5%;
+    margin-left: 4%;
     margin-top: 1%;
     margin-right: 3%;
     background-color: black;
     float: left;
     width: 25%;
+    border: 2px solid grey;
 }
 #Home2 #button2{
     margin-left: 5%;
@@ -225,6 +238,7 @@ html{
     background-color: black;
     float: left;
     width: 25%;
+    border: 2px solid grey;
 }
 #Home2 #button3{
     margin-left: 5%;
@@ -232,6 +246,7 @@ html{
     background-color: black;
     float: left;
     width: 25%;
+    border: 2px solid grey;
 }
 
 #Home2 #ObjectHome2 img{
@@ -365,7 +380,7 @@ html{
     margin-left: -8px;
     margin-right: -12px;
     margin-top: 10%;
-    height: 120vh;
+    padding-bottom: 40%;
 }
 #Interest2 h1{
     text-align: center;
@@ -375,18 +390,19 @@ html{
 #Interest2 img{
     width: 40%;
     float: left;
-    padding-left: 8%;
-    padding-top: 3%;
+    margin-left: 8%;
+    margin-top: 3%;
 }
 #Interest2 p{
     float: left;
     display: block;
     width: 40%;
     text-align: justify;
-    padding-left: 5%;
-    padding-top: 3%;
+    margin-left: 5%;
+    margin-top: 3%;
     font-size: 1.2em;
     font-family: 'Montserrat', sans-serif;
+    line-height: 1.5em;
 }
 
 #Interest3{
@@ -643,7 +659,9 @@ html{
     width: 26%;
     margin-left: 16%;
     font-family: 'Montserrat', sans-serif;
-    
+}
+#Project3 .MobileVer{
+    display: none;
 }
 
 
@@ -688,20 +706,25 @@ html{
     margin-left: 2%;
 }
 #Contact1Column1{
-    width: 50%;
+    width: 40%;
     float: left;
 }
 #Contact1Column1 p{
+    font-family: 'Montserrat';
     margin-left: 10%;
-    margin-bottom: 2em;
+    margin-bottom: 1.92em;
+    font-size: 1em;
 }
 #Contact1Column2{
     float: left;
     margin-bottom: 19%;
 }
 #Contact1Column2 p{
-    margin-bottom: 2em;
+    margin-bottom: 1.92em;
+    font-family: 'Montserrat';
+    font-size: 1em;
 }
+
 #Contact2 h1{
     margin-left: 5%;
 }
@@ -807,7 +830,9 @@ html{
     margin-bottom: 15%;
     cursor: pointer;
 }
-
+#Contact3 p{
+    display: hidden;
+}
 #gmail{
     transition: 0.5s ease;
 }
@@ -829,31 +854,344 @@ html{
 
 
 @media screen and (max-width: 400px){
+
+    #Header{
+        text-align: center;
+        margin-top: -16px;
+        margin-left: -8px;
+        margin-right: -12px;
+    }
+    #Header ul{
+        display: none;
+    }
+    #Header #TextPhone{
+        display: block;
+        width: 100%;
+        float: right;
+        text-align: center;
+        margin-bottom: 10%;
+    }
+    #Header #TextPhone li{
+        display: inline-block;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    #Header #TextPhone a{
+        text-decoration: none;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        display: block;
+        font-size: 0.6em;
+    }
+    /* #Header #Navbar{
+        display: block;
+        margin-right: 3%;
+        width: 10%;
+        padding-top: 2%;
+        margin-left: 20%;
+        float: right;
+        margin-top: -14%;
+        border-radius: 1px solid white;
+    } */
+    #Header #Navbar:hover #Header #TextPhone{
+        display: block;
+    }
+
     #Main{
-        background-color: red;
+        background-color: black;
         border-top: none;
         border-right: none;
+        padding-bottom: 0.1125%;
+    }
+    #Text1{
+        font-size: 5em;
+        margin-top: 0%;
+        margin-left: 0%;
+        text-align: center;
+        display: none;
+    }
+    #Text2{
+        background-color: white;
+        font-size: 5em;
+        margin-top: 0%;
+        margin-left: 0%;
+        display: none;
+    }
+    #Text3{
+        display: block;
+        font-size: 5em;
+        text-align: center;
+        color: white;
+        margin-bottom: 10%;
     }
     #Header img{
-        width: 10%;
+        width: 40%;
         margin-top: 4%;
-        margin-left: 12px;
+        float: none;
     }
     #Header h4{
-        font-size: 0.75em;
+        float: none;
+        margin-top: 2%;
+        font-size: 1.5em;
     }
     #Header #h4Text{
-        padding-left: 16%;
-        padding-top: 9%;
+        margin: 0px;
+        float: none;
+        padding: 0px;
+        margin-top: -7%;
+        margin-bottom: 5%;
+    }
+
+
+    #footer #Text{
+        padding: 0px;
+        padding-top: 5%;
+        text-align: center;
+    }
+    #footer h2{
+        float: none;
+        display: inline-block;
+        font-size: 0.8em;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    #footer{
+        height: 20vh;
     }
     
 
-    #Album{
+    #Home1{
+        margin: 0px;
+        padding: 0px;
+        margin-top: 40%;
+        text-align: center;
+        margin-bottom: 10%;
+    }
+    #Home1 h1{
+        margin: 0px;
+        padding: 0px;
+        margin-top: -25%;
+        margin-bottom: 25%;
+        float: none;
+    }
+    #Home1 #TextHome1{
+        float: none;
+        margin: 0px;
+        padding: 0px;
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 20%;
+    }
+    #Photo_Home{
+        float: none;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        margin-bottom: 20%;
+    }
 
+    #Home2{
+        text-align: center;
+        padding-bottom: 10%;
+    }
+    #Home2 p{
+        text-align: justify;
+        width: 80%;
+        margin: 0px;
+        margin-left: 10%;
+    }
+    #Home2 #button1{
+        float: none;
+        width: 90%;
+        margin-top: 7%;
+        margin-left: 5%;
+    }
+    #Home2 #button2{
+        float: none;
+        width: 90%;
+        margin-top: 7%;
+    }
+    #Home2 #button3{
+        float: none;
+        width: 90%;
+        margin-top: 7%;
+    }
+
+    #Home2 #ObjectHome2 img{
+        opacity: 0.5;
+    }
+    .title{
+        opacity: 1;
+    }
+    #Home2 .button{
+        opacity: 1;
+    }
+
+
+
+    #Interest1{
+        padding-top: 30%;
+        text-align: center;
+    }
+    #Interest1 h1{
+        padding: 0px;
+    }
+    #Img1Int{
+        margin: 0px;
+        margin-bottom: 5%;
+    }
+    #Img2Int{
+        margin: 0px;
+        margin-bottom: 5%;
+    }
+    #Img3Int{
+        margin: 0px;
+        margin-bottom: 5%;
+    }
+    #Interest1 p{
+        text-align: justify;
+        margin: 0px;
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 10%;
+    }
+
+    #Interest2{
+        padding-bottom: 7%;
+    }
+    #Interest2 img{
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 10%;
+    }
+    #Interest2 p{
+        float: none;
+        width: 80%;
+        margin-left: 10%;
+    }
+    #Interest3{
+        padding-bottom: 5%;
+    }
+    #Interest3 p{
+        width: 80%;
+        float: none;
+        margin-left: 10%;
+    }
+    #Interest3 img{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+
+
+
+    #Project1 #column1{
+        float: none;
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 15%;
+    }
+    #Project1 #column2{
+        float: none;
+        width: 80%;
+        margin-left: 10%;
+    }
+    #Project1 .container img{
+        opacity: 0.5;
+    }
+    #ChannelLogo{
+        width: 80%;
+        height: 80%;
+    }
+    .Project1Button{
+        opacity: 1;
+        margin-top: -52%;
+    }
+
+    #Project2{
+        margin-bottom: 25%;
+    }
+    #Project2 iframe{
+        width: 90vw;
+        height: 23vh;
+        margin-left: 5%;
+        background-color: rgba(0, 0, 0, 1);
+        margin-top: -10%;
+    }
+    #Project2 .Carousel-Left{
+        margin-left: 5.25%;
+        margin-top: -40%;
+        height: 5%;
+        width: 6%;
+        background-color: rgba(0, 0, 0, 1);
+    }
+    #Project2 .Carousel-Right{
+        margin-left: 89.25%;
+        margin-top: -40%;
+        height: 5%;
+        width: 6%;
+        background-color: rgba(0, 0, 0, 1);
+    }
+
+
+    #Project3 h1{
+        font-size: 3em;
+    }
+    #Project3 p{
+        width: 80%;
+        margin-left: 10%;
+    }
+    #Project3 img{
+        opacity: 0.5;
+    }
+    #Project3 #Overlay1, #Project3 #Overlay2{
+        width: 80%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+    .OverlayText1{
+        opacity: 1;
+        margin-top: -55%;
+    }
+    .OverlayText2{
+        opacity: 1;
+        margin-top: -55%;
+        width: 80%;
+    }
+    #ButtonP{
+        opacity: 1;
+        width: 30%;
+        margin-left: 25%;
+        margin-top: -40%;
+    }
+    #Project3 h4{
+        float: none;
+        width: 60%;
+        margin-left: 20%;
+        margin-bottom: 15%;
+        font-weight: 500;
+        display: none;
+    }
+    #Project3 .MobileVer{
+        display: block;
+    }
+
+
+
+    #Gallery1 h1{
+        padding-top: 5%;
+    }
+    #Album{
+        columns: 2;
+        margin-left: 7%;
     }
     #Gallery1 img{
         display: block;
+        width: 40vw;
+        padding-bottom: 10%;
     }
+
+
 
 
     #Contact1{
@@ -861,6 +1199,7 @@ html{
         width: 100%;
         margin-left: 0%;
         margin-right: 0%;
+        margin-top: 3%;
     }
     #Contact1 h1{
         margin: 0%;
@@ -870,12 +1209,18 @@ html{
     #Contact1Column1{
         width: 50%;
         background-color: rgb(231, 231, 231);
-        padding-bottom: 62%;
+        padding-bottom: 54.5%;
+    }
+    #Contact1Column1 p{
+        font-size: 0.85em;
     }
     #Contact1Column2{
         width: 50%;
         background-color: rgb(231, 231, 231);
-        margin-bottom: 2%;
+        margin-bottom: 2.5%;
+    }
+    #Contact1Column2 p{
+        font-size: 0.85em;
     }
     #Contact2{
         width: 100%;
