@@ -1098,6 +1098,7 @@ html{
     #Project1 #column2{
         float: none;
         width: 80%;
+        margin-left: 10%;
     }
     #Project1 .container img{
         opacity: 0.5;
